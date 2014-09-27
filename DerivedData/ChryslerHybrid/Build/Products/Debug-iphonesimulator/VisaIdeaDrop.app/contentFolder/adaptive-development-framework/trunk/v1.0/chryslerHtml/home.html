@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0;">
+                <title>FCA - Login</title>
+                <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+                    <link href="css/jquery.dataTables.overrides.css" type="text/css" rel="stylesheet" media="all" />
+                    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+                    <link href="css/style.css" rel="stylesheet" type="text/css">
+                    <script src="js/jquery-1.11.1.min.js"></script>
+                    
+                    <script src="js/mustache.min.js"></script>
+                    <script src="js/genericAjax.js"></script>
+                    
+                    </head>
+                    
+                    <body>
+                    
+                    <div class="home-grd-box" >
+                    <h1 id="EQUI">sdddsds</h1>
+                   
+                   
+                    </div>
+                    <script>
+                    
+                    var param = JSON.stringify ({
+                    "reqType":10,
+                    "inputData":"SV-3124",
+                    "userName":"shri",
+                    "userPin":"123"
+                    })
+                    
+                    var url = "http://182.71.209.230:8080/ChryslerPOC/orderServlet"
+                    CallMethod(url,param,onSuccess);
+                    var response = "dfsadfff";
+                    alert(response);
+                    
+                    var template = "{{EQUIPMENT}}";
+                    alert(template);
+                    
+                    var info = Mustache.to_html(template,response);
+                    alert(info);
+                    $('#EQUI').html(info);
+                    
+                    </script>
+                   
+
+                    </body>
+                    </html>

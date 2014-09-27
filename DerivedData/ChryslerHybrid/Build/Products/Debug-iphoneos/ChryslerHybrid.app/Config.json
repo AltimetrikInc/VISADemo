@@ -1,0 +1,10 @@
+{
+    "appName":"Chrysler Demo",
+    "contentFolder":"contentFolder/adaptive-development-framework/trunk/v1.0/defaultHTML",
+    "bootstrap":{
+        "useEncryption":true,
+        "encryptedContent":true,
+        "secureDelete":true,
+        "copyContent":true
+    }
+}

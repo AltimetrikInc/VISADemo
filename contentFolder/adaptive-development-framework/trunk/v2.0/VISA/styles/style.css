@@ -1,0 +1,302 @@
+﻿html {
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.select-style {
+    margin-top:10px;
+    margin-right:15px;
+    border: 1px solid #ccc;
+    width: 220px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: #fafafa url("data:image/png;base64,R0lGODlhDwAUAIABAAAAAP///yH5BAEAAAEALAAAAAAPABQAAAIXjI+py+0Po5wH2HsXzmw//lHiSJZmUAAAOw==") no-repeat 90% 50%;
+}
+
+.select-style select {
+    padding: 5px 8px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+.select-style select:focus {
+    outline: none;
+}
+
+.home-icon-item {
+    padding: 15px 0 0 0;
+}
+
+.home-icon {
+    width: 60%;
+    max-width: 120px;
+}
+
+.home-icon-text {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    display: block;
+}
+
+.main-header-row {
+    background-color: #EDF0F4;
+}
+
+.main-header {
+    padding: 15px 0 15px 0;
+}
+
+.logout-icon {
+    width: 30px;
+}
+
+.main-header-text {
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    display: block;
+}
+
+.sub-header-row {
+    background-color: #575CC0;
+}
+
+.sub-header {
+    padding: 5px 0 5px 0;
+}
+
+.sub-header-text {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+.expand_transactions_preview {
+    color: #ffffff;
+}
+
+.transactions_preview {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    color: #ffffff;
+}
+
+.transactions-horizontal-divider {
+    border-bottom: 1px solid #ffffff;
+}
+
+.transactions-row {
+    padding: 5px 0;
+}
+
+.icon-link {
+    text-decoration: none !important;
+    color: #000000;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0; /* make things invisible upon start */
+    -webkit-animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation: fadeIn ease-in 1;
+    animation: fadeIn ease-in 1;
+    -webkit-animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.fade-in.zero {
+        -webkit-animation-delay: 0.3s;
+        -moz-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    }
+
+    .fade-in.one {
+        -webkit-animation-delay: 0.6s;
+        -moz-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+    }
+
+    .fade-in.two {
+        -webkit-animation-delay: 0.8s;
+        -moz-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+    }
+
+    .fade-in.three {
+        -webkit-animation-delay: 1.0s;
+        -moz-animation-delay: 1.0s;
+        animation-delay: 1.0s;
+    }
+
+.bottom-nav-menu {
+    background-color: #575CC0;
+    color: #ffffff;
+}
+
+.bottom-nav-menu-icons {
+    width: 60%;
+    max-width: 64px;
+}
+
+.fixed-header {
+    padding-top: 50px;
+}
+
+.strip {
+    margin: 0 1px 10px 1px;
+    background-color: #ffffff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; /* future proofing */
+    -khtml-border-radius: 4px; /* for old Konqueror browsers */
+}
+
+.strip-row {
+    font-family: 'Segoe UI';
+    height: 50px;
+}
+
+.strip-row-up {
+    margin-top:0;
+    font-family: 'Segoe UI';
+    height: 40px;
+    font-size: 24px;
+    color: red;
+}
+
+.strip-row-up small {
+    color: #000000;
+    font-size: 12px;
+}
+
+.strip-row-down {
+    font-family: 'Segoe UI';
+    height: 40px;
+    padding-top: 10px;
+}
+
+.strip-row-down img {
+    width: 40%;
+    height: auto;
+    max-width : 26px;
+    max-height: 26px;
+}
+
+.strip-cell-void {
+    background-color: #616161;
+    height: 100px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.strip-horizontal-seperator {
+    border-top: 1px solid lightgray;
+}
+
+.strip-vertical-seperator-rightside {
+    border-right: 1px solid lightgray;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.strip-vertical-seperator-rightside-full {
+    border-right: 1px solid lightgray;
+    height: 80px;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.strip-1-1 {
+    font-size: 26px;
+}
+
+    .strip-1-1 small {
+        font-size: 12px;
+    }
+
+.strip-1-2 {
+    font-size: 16px;
+}
+
+.strip-1-3 {
+    font-size: 18px;
+}
+
+    .strip-1-3 small {
+        font-size: 12px;
+    }
+
+.strip-2-1 {
+    font-size: 24px;
+}
+
+    .strip-2-1 img {
+        max-width: 25px;
+    }
+
+.strip-2-2 small {
+    font-size: 12px;
+}
+
+.strip-2-2 img {
+    max-height: 20px;
+}
+
+.box {
+}
+
+.context-icon {
+    max-width: 67px;
+    max-height: 74px;
+    width: 100%;
+    height: auto;
+}

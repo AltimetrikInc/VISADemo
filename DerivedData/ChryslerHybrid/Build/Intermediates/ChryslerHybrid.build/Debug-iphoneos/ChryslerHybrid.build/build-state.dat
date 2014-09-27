@@ -1,0 +1,642 @@
+TChryslerHybrid
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist
+cProcessPCH /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch ChryslerHybird/ChryslerHybrid-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid normal armv7
+cCpResource contentFolder DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder
+cCompileStoryboard /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard
+cCpResource Config.json DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json
+cCompileStoryboard /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard
+cCpResource ChryslerHybird/icons DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons
+cCopyStringsFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj/InfoPlist.strings ChryslerHybird/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets
+cProcessInfoPlistFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist
+cGenerateDSYMFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid
+cProcessProductPackaging /Users/shriharsha/Library/MobileDevice/Provisioning\ Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision
+cTouch /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent
+cCodeSign /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c000000005369E4A90000000000000094
+t1399448745
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c000000005369E4A90000000000000096
+t1399448745
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005369E4A9000000000000036B
+t1399448745
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531149D7000000000000019E
+t1393641943
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005369E4AA0000000000632990
+t1399448746
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000005369E4A90000000000011540
+t1399448745
+s70976
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005369E4AA000000000063A500
+t1399448746
+s6530304
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000005369E4AA00000000008F30A0
+t1399448746
+s9384096
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005369E4AA00000000004D7BC0
+t1399448746
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005369E4AA0000000000152370
+t1399448746
+s1385328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c000000005369E4AA0000000000306EF0
+t1399448746
+s3174128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005369E4AB0000000000A90C10
+t1399448747
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c000000005369E4AB0000000000836810
+t1399448747
+s8611856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000005369E4AB00000000003C0F90
+t1399448747
+s3936144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005369E4AC0000000000ABDE50
+t1399448748
+s11263568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000005369E4AB00000000003D1D20
+t1399448747
+s4005152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005369E4AC0000000000649DB0
+t1399448748
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuickLook.framework/QuickLook
+c000000005369E4AC00000000001FFFE0
+t1399448748
+s2097120
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005369E4AC0000000000186D60
+t1399448748
+s1600864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+c000000005369E4AC0000000000099D80
+t1399448748
+s630144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005369E4AC00000000001A2B00
+t1399448748
+s1714944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005369E4B10000000002759920
+t1399448753
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+c000000005369E4B60000000000218030
+t1399448758
+s2195504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libstdc++.dylib
+c000000005369E4B6000000000021D690
+t1399448758
+s2217616
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libz.dylib
+c000000005369E4B600000000000466D0
+t1399448758
+s288464
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005369E5390000000000000ADC
+t1399448889
+s2780
+
+N/Users/shriharsha/Library/MobileDevice/Provisioning Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision
+c0000000054080E6F000000000000624C
+t1409814127
+s25164
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard
+c0000000053FAC6AB0000000000000715
+t1408943787
+s1813
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard
+c0000000053FAC6AB000000000000071D
+t1408943787
+s1821
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m
+c0000000053FACB1C0000000000000B75
+t1408944924
+s2933
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m
+c000000005405B3DE0000000000000F72
+t1409659870
+s3954
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist
+c0000000053FCD6DF00000000000008F2
+t1409079007
+s2290
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Prefix.pch
+c0000000053FAD9AB0000000000000158
+t1408948651
+s344
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets
+c0000000054081CC20000000000000088
+t1409817794
+s136
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/en.lproj/InfoPlist.strings
+c0000000053FAC6AB000000000000002D
+t1408943787
+s45
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/icons
+c0000000053FCC5D10000000000000110
+t1409074641
+s272
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/libVisionLibrary.a
+c0000000053FCD53B00000000050219B4
+t1409078587
+s84023732
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m
+c0000000053FAC6AB000000000000016E
+t1408943787
+s366
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/Config.json
+c00000000540C990E000000000000010C
+t1410111758
+s268
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent
+t1410111767
+s713
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o
+t1410111764
+s69332
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o
+t1410111764
+s52932
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/ChryslerHybrid.LinkFileList
+c00000000540C9914000000000000026D
+t1410111764
+s621
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o
+t1410111764
+s3880
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_dependencies.txt
+t1410111766
+s716
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_generated_info.plist
+t1410111766
+s714
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch
+t1410111764
+s95824
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+t1410111767
+s510
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM
+t2
+s0
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Base.lproj/Main_iPad.storyboardc
+t1410111766
+s170
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Base.lproj/Main_iPhone.storyboardc
+t1410111766
+s170
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid
+t1410111765
+s4369908
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json
+t1410111765
+s268
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist
+t1410111766
+s2104
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/PkgInfo
+t1410111766
+s8
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist
+t1410111764
+s150
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder
+t1410111765
+s136
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision
+t1410111767
+s25164
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj/InfoPlist.strings
+t1410111765
+s42
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons
+t1410111765
+s238
+
+N/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/contentFolder
+c0000000053FAC97C00000000000000AA
+t1408944508
+s170
+
+CBuild AST from /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m
+r0
+
+CBuild AST from /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m
+r0
+
+CBuild AST from /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3d827794d0bcb941^0d1b8194d0bcb941^---0#1#1#--18"Check dependencies36"0F537EDD-D283-4D06-A567-F7EB410B076B-
+
+CCodeSign /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+s431804567.546094
+e431804567.989313
+r1
+xCodeSign
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"CodeSign DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app84"CodeSign DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app33e18b97d0bcb941^9a44fd97d0bcb941^---0#0#1#-19%DVTDocumentLocation2@151"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/0000000000000000^1257"CodeSign DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Shri Harsha (MT4Y63D3NV)" and provisioning profile "WildCard_Develpoment" (e5cb5911-23fe-45d2-b099-5b3d08199d00)    /usr/bin/codesign --force --sign 63D4D338D3EFE801E4880DBF92B1A9A304C2AC26 --resource-rules=/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist --entitlements /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app36"AB5D8A36-A360-436F-BBCA-BE6957E0AD67-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCompileAssetCatalog /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets
+s431804565.062466
+e431804566.466654
+r1
+xCompileAssetCatalog
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets
+o/* com.apple.actool.document.warnings */
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset: warning: A 60x60@2x app icon is required for iPhone apps targeting iOS 7.0 and later
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset: warning: A 76x76 app icon is required for iPad apps targeting iOS 7.0 and later
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset: warning: A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset/[ipad][29x29][2x]: warning: AppIcon.appiconset/Icon-72-2.png is 72x72 but should be 58x58.
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][2x]: warning: AppIcon.appiconset/Icon-72-1.png is 72x72 but should be 58x58.
+o/* com.apple.actool.document.notices */
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset/[ipad][72x72][1x]: notice: 72x72 app icons only apply to iPad apps targeting releases of iOS prior to 7.0
+o/* com.apple.actool.compilation-results */
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/AppIcon72x72~ipad.png
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/LaunchImage-700-568h@2x.png
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Assets.car
+o/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CompileAssetCatalog DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app ChryslerHybird/Images.xcassets126"CompileAssetCatalog DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app ChryslerHybird/Images.xcassetse8141095d0bcb941^03787796d0bcb941^-2085"/* com.apple.actool.document.warnings *//Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset: warning: A 60x60@2x app icon is required for iPhone apps targeting iOS 7.0 and later/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset: warning: A 76x76 app icon is required for iPad apps targeting iOS 7.0 and later/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset: warning: A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset/[ipad][29x29][2x]: warning: AppIcon.appiconset/Icon-72-2.png is 72x72 but should be 58x58./Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][2x]: warning: AppIcon.appiconset/Icon-72-1.png is 72x72 but should be 58x58./* com.apple.actool.document.notices *//Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets:./AppIcon.appiconset/[ipad][72x72][1x]: notice: 72x72 app icons only apply to iPad apps targeting releases of iOS prior to 7.0/* com.apple.actool.compilation-results *//Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/AppIcon72x72~ipad.png/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/LaunchImage-700-568h@2x.png/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Assets.car/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_generated_info.plist5(21%IDEActivityLogMessage2@75"A 60x60@2x app icon is required for iPhone apps targeting iOS 7.0 and later-431804566#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@106"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@70"A 76x76 app icon is required for iPad apps targeting iOS 7.0 and later-431804566#18446744073709551615#0#-1#-3@106"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@73"A 76x76@2x app icon is required for iPad apps targeting iOS 7.0 and later-431804566#18446744073709551615#0#-1#-3@106"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@62"AppIcon.appiconset/Icon-72-2.png is 72x72 but should be 58x58.-431804566#18446744073709551615#0#-1#-3@106"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--2@62"AppIcon.appiconset/Icon-72-1.png is 72x72 but should be 58x58.-431804566#18446744073709551615#0#-1#-3@106"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--0#0#1#-19%DVTDocumentLocation4@106"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets/0000000000000000^1381"CompileAssetCatalog DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app ChryslerHybird/Images.xcassets    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --target-device ipad --compress-pngs --compile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets36"F6709F1B-92EE-49AC-B519-D5F9CA8DA15D-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431804564.548352
+e431804564.631697
+r1
+xCompileC
+xDerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKVision.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKAppDelegate.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKWebView.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKComponentViewControllerBase.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKWidget.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlBundle.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/Constants.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlPackage.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlPackageStatus.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlPackageViewController.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKShelfManager.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKConfigManager.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m249"CompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o ChryslerHybird/CHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler4f798c94d0bcb941^aeb7a194d0bcb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m0000000000000000^4474"CompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o ChryslerHybird/CHAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-generated-files.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-own-target-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-all-target-headers.hmap -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-project-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources/armv7 -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources -F/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos -include /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch -MMD -MT dependencies -MF /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.d --serialize-diagnostics /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.dia -c /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o36"D9CE5564-E3C7-42DC-9D4B-139C09749F24-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431804564.548618
+e431804564.625885
+r1
+xCompileC
+xDerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKVision.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKAppDelegate.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKWebView.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKComponentViewControllerBase.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKWidget.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlBundle.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/Constants.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlPackage.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlPackageStatus.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKControlPackageViewController.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKShelfManager.h
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/VisionLibrary/ATKConfigManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m255"CompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o ChryslerHybird/CHViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler94888c94d0bcb941^c93aa094d0bcb941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m0000000000000000^4492"CompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o ChryslerHybird/CHViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-generated-files.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-own-target-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-all-target-headers.hmap -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-project-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources/armv7 -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources -F/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos -include /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch -MMD -MT dependencies -MF /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.d --serialize-diagnostics /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.dia -c /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o36"BD76173C-EBF6-4BE3-813E-5B0AEF309C38-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431804564.548103
+e431804564.589423
+r1
+xCompileC
+xDerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m231"CompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o ChryslerHybird/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera16a8c94d0bcb941^79e59694d0bcb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m0000000000000000^4420"CompileC DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o ChryslerHybird/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-generated-files.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-own-target-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-all-target-headers.hmap -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-project-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources/armv7 -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources -F/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos -include /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch -MMD -MT dependencies -MF /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.dia -c /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o36"48605C36-9680-4BB0-A97F-4F145BCA4324-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCompileStoryboard /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard
+s431804565.060905
+e431804566.254741
+r1
+xCompileStoryboard
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"CompileStoryboard ChryslerHybird/Base.lproj/Main_iPad.storyboard64"CompileStoryboard ChryslerHybird/Base.lproj/Main_iPad.storyboard82a80f95d0bcb941^3e3e4196d0bcb941^---0#0#1#-19%DVTDocumentLocation2@121"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard0000000000000000^930"CompileStoryboard ChryslerHybird/Base.lproj/Main_iPad.storyboard    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Base.lproj/Main_iPad.storyboardc /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard36"CD98C72D-EE9C-46E2-BFBA-ABBFF452BBE6-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCompileStoryboard /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard
+s431804565.061217
+e431804566.254709
+r1
+xCompileStoryboard
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"CompileStoryboard ChryslerHybird/Base.lproj/Main_iPhone.storyboard66"CompileStoryboard ChryslerHybird/Base.lproj/Main_iPhone.storyboard4cc40f95d0bcb941^1e364196d0bcb941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard0000000000000000^936"CompileStoryboard ChryslerHybird/Base.lproj/Main_iPhone.storyboard    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Base.lproj/Main_iPhone.storyboardc /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard36"78CA869D-188F-49E4-9D00-D6F92561C1E0-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCopyStringsFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj/InfoPlist.strings ChryslerHybird/en.lproj/InfoPlist.strings
+s431804565.061766
+e431804565.157429
+r1
+xCopyStringsFile
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj/InfoPlist.strings
+xChryslerHybird/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy ChryslerHybird/en.lproj/InfoPlist.strings160"CopyStringsFile DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj/InfoPlist.strings ChryslerHybird/en.lproj/InfoPlist.stringsd1eb0f95d0bcb941^1a4f2895d0bcb941^---0#0#1#-19%DVTDocumentLocation2@116"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/en.lproj/InfoPlist.strings0000000000000000^712"CopyStringsFile DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj/InfoPlist.strings ChryslerHybird/en.lproj/InfoPlist.strings    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/en.lproj -- ChryslerHybird/en.lproj/InfoPlist.strings36"5C29C58B-5203-49C9-B2E1-999CC7C6D3C4-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist
+s431804564.504864
+e431804564.505648
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xDerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist228"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist094e8194d0bcb941^25958194d0bcb941^---0#0#1#-19%DVTDocumentLocation2@170"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist0034d04ddeffdf42^870"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app36"19323AB7-2DF4-4D24-AC20-09AA745ADFE5-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCpResource ChryslerHybird/icons DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons
+s431804565.061476
+e431804565.063781
+r1
+xCpResource
+xChryslerHybird/icons
+xDerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons113"CpResource ChryslerHybird/icons DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/iconsf2d00f95d0bcb941^00551095d0bcb941^---0#0#1#-19%DVTDocumentLocation2@156"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons0034d04ddeffdf42^722"CpResource ChryslerHybird/icons DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/icons    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/icons /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app36"14B23B54-17CA-445A-99D8-BCF659DEBE9A-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCpResource Config.json DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json
+s431804565.061078
+e431804565.062423
+r1
+xCpResource
+xConfig.json
+xDerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json110"CpResource Config.json DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json56b60f95d0bcb941^a3011095d0bcb941^---0#0#1#-19%DVTDocumentLocation2@162"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json0034d04ddeffdf42^710"CpResource Config.json DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Config.json    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/Config.json /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app36"7F0B7896-B039-482E-B412-2A507767F947-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CCpResource contentFolder DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder
+s431804565.060742
+e431804565.311807
+r1
+xCpResource
+xcontentFolder
+xDerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder114"CpResource contentFolder DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFoldere99c0f95d0bcb941^4ed34f95d0bcb941^---0#0#1#-19%DVTDocumentLocation2@164"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder0034d04ddeffdf42^716"CpResource contentFolder DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/contentFolder    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/contentFolder /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app36"C78A7262-42AD-4F66-8F61-B2A649B50EB2-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CGenerateDSYMFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid
+s431804566.483535
+e431804567.370869
+r1
+xGenerateDSYMFile
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Generate /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM188"GenerateDSYMFile DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid84d67b96d0bcb941^63f25e97d0bcb941^---0#0#1#-19%DVTDocumentLocation2@155"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM0034d04ddeffdf42^863"GenerateDSYMFile DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app.dSYM36"408DFD8E-3BC6-4CD1-B79A-9A05B4D4AE29-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CLd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid normal armv7
+s431804564.632906
+e431804565.059922
+r1
+xLd
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid
+xnormal
+xarmv7
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/ChryslerHybrid.LinkFileList
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/main.o
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHAppDelegate.o
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/CHViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuickLook.framework/QuickLook
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/StoreKit.framework/StoreKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/libVisionLibrary.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection163"Link /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid106"Ld DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid normal armv7091ba294d0bcb941^6d580f95d0bcb941^---0#0#1#--2142"Ld DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid normal armv7    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export IPHONEOS_DEPLOYMENT_TARGET=7.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos -L/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird -F/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos -filelist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/ChryslerHybrid.LinkFileList -dead_strip -ObjC -all_load -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -lstdc++ -lsqlite3 -lz -framework Accelerate -framework Security -framework CoreText -framework QuickLook -framework SystemConfiguration -framework CFNetwork -framework CoreData -framework ImageIO -framework MediaPlayer -framework CoreLocation -framework MapKit -framework StoreKit -framework AVFoundation -framework CoreGraphics -lVisionLibrary -framework QuartzCore -framework MessageUI -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/Objects-normal/armv7/ChryslerHybrid_dependency_info.dat -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ChryslerHybrid36"6A95E837-E742-47D8-A893-B136A28A28BF-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CProcessInfoPlistFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist
+s431804566.467213
+e431804566.483087
+r1
+xProcessInfoPlistFile
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Process /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist148"ProcessInfoPlistFile DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist ChryslerHybird/ChryslerHybrid-Info.plist2eac7796d0bcb941^93ac7b96d0bcb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist0000000000000000^1339"ProcessInfoPlistFile DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist ChryslerHybird/ChryslerHybrid-Info.plist    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Info.plist -genpkginfo /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/ResourceRules.plist -additionalcontentfile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/assetcatalog_generated_info.plist -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/Info.plist36"18746151-B3C4-4427-86BA-DC978C5443C6-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CProcessPCH /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch ChryslerHybird/ChryslerHybrid-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s431804564.506272
+e431804564.547448
+r1
+xProcessPCH
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch
+xChryslerHybird/ChryslerHybrid-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Precompile ChryslerHybird/ChryslerHybrid-Prefix.pch267"ProcessPCH DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch ChryslerHybird/ChryslerHybrid-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilereab18194d0bcb941^46268c94d0bcb941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Prefix.pch0000000000000000^4303"ProcessPCH DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch ChryslerHybird/ChryslerHybrid-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-generated-files.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-own-target-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-all-target-headers.hmap -iquote /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid-project-headers.hmap -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources/armv7 -I/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/DerivedSources -F/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.dia -MMD -MT dependencies -MF /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.d -c /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybrid-Prefix.pch -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/PrecompiledHeaders/ChryslerHybrid-Prefix-gvpmleyghshojtcaxpaccnglhlma/ChryslerHybrid-Prefix.pch.pch36"38B78D44-930A-4B73-AE97-9C217472A29E-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CProcessPCH /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Index/PrecompiledHeaders/ChryslerHybrid-Prefix-fqmrhcnxqpqoobefaajjegwcfirm_ast/ChryslerHybrid-Prefix.pch.pch ChryslerHybird/ChryslerHybrid-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent
+s431804567.544510
+e431804567.545695
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection269"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent269"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent9b748b97d0bcb941^96b38b97d0bcb941^---0#0#1#-19%DVTDocumentLocation2@199"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent0034d04ddeffdf42^912"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Intermediates/ChryslerHybrid.build/Debug-iphoneos/ChryslerHybrid.build/ChryslerHybrid.xcent36"75A885CA-8501-4BB5-8F1B-EA836970017C-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CProcessProductPackaging /Users/shriharsha/Library/MobileDevice/Provisioning\ Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision
+s431804567.371450
+e431804567.543470
+r1
+xProcessProductPackaging
+x/Users/shriharsha/Library/MobileDevice/Provisioning Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision
+x/Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection239"ProcessProductPackaging /Users/shriharsha/Library/MobileDevice/Provisioning\ Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision239"ProcessProductPackaging /Users/shriharsha/Library/MobileDevice/Provisioning\ Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovisionfe275f97d0bcb941^f7218b97d0bcb941^---0#0#1#-19%DVTDocumentLocation2@175"file:///Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision0034d04ddeffdf42^826"ProcessProductPackaging /Users/shriharsha/Library/MobileDevice/Provisioning\ Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision    cd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/shriharsha/Library/MobileDevice/Provisioning\ Profiles/e5cb5911-23fe-45d2-b099-5b3d08199d00.mobileprovision -o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app/embedded.mobileprovision36"544EA8A4-AFB6-425A-BED8-4EB6CAE967B8-
+bC1E794FF-51AF-41EB-87DF-FD7ACEE0BAEA
+
+CTouch /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybrid/Build/Products/Debug-iphoneos/ChryslerHybrid.app
+r0
+

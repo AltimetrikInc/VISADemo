@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <script src="bundles/5 - HomeWidget/components/visionJSBridge.js" type="text/javascript"></script>
+        <script>
+            
+            function reloadChart(id, jsonString){
+                var jsonObject = JSON.parse(jsonString);
+                loadDataCircle(jsonObject.value);
+            }
+        
+        function loadDataCircle(value){
+            var data = {
+                "params":{
+                    "destinationId":"atkcircle",
+                    "data":{
+                        "type":"local",
+                        "source":"/bundles/5 - HomeWidget/components/Integration30-04/circleChartData"+value+".json"
+                    }
+                }
+            }
+            postNotification("ATKLoadDataNotification",data);
+        }
+        
+        
+        function displayGraph(id, jsonString) {
+            var jsonObject = JSON.parse(jsonString);
+            if(jsonObject.selected == "YES") {
+                showWidget("atkcircle");
+                showWidget("atkslider3");
+            } else {
+                removeComponent("atkslider3");
+                removeComponent("atkcircle");
+            }
+        }
+        
+            </script>
+    </head>
+    <body style="background-color:#c3d4ec">
+            <div id="atktoggle"  style="position:absolute; left:10px; top: 10px;width:300px; height:40px;"></div>
+            <br/>
+            <div id="circle">
+            <div id="atkslider3" style="position:absolute; left:10px; top: 100px;width:150px; height:70px;"></div>
+            
+            <div id="atkcircle" style="position:absolute; left:10px; top:100px;  width:400px; height:300px;" ></div>
+            </div>
+        
+        <script type="text/javascript">
+            autoLoadWidgets = ["atkcircle","atkslider3", "atktoggle"];
+            
+            widgetMap["atkcircle"] = {
+                "id": "atkcircle",
+                "name": "Graph Widget",
+                "class":"ATKChartManager",
+                "notificationId": "",
+                "data":{
+                    "type":"local",
+                    "source":"/bundles/5 - HomeWidget/components/Integration30-04/circleChartData1.json"
+                },
+                "style":{
+                    "backgroundColor":"#c3d4ec",
+                    "strokeColor":"#a2c3d3",
+                    "fontName":"AvenirNext-Regular",
+                    "fontSize":20,
+                    "fontColor":"#4B9C4C"
+                },
+                "properties":{
+                    "title": "Circle Chart",
+                    "chartType":"circleChart"
+                }
+                
+            };
+        
+        widgetMap["atkslider3"] = {
+            "id": "atkslider3",
+            "name": "Slider3",
+            "class": "ATKSlider",
+            "notificationId": "",
+            "data": {
+                "defaultValue":"1",
+            },
+            "style": {
+                "backgroundColor": "",
+                "fontName":"AvenirNext-Regular",
+                "fontSize":16,
+                "fontColor": "#FFFFFF"
+            },
+            "properties": {
+                "title": "Trimester",
+                "minValue":"1",
+                "maxValue":"3",
+                "integerSliderValues":1,
+                "objectToUpdate": ""
+            },
+            "actions":[{
+                       "event": "ATKActionSelect",
+                       "type": "javascript",
+                       "params": {
+                       "webId": "webView1",
+                       "callbackFunction":"reloadChart"
+                       }
+                       }]
+        };
+        
+        widgetMap["atktoggle"] = {
+            "id": "toggle1",
+            "name": "Toggle",
+            "class": "ATKToggle",
+            "notificationId": "",
+            "data": {
+                "defaultValue":"YES"
+            },
+            "style": {
+                "backgroundColor": "",
+                "fontName":"AvenirNext-Regular",
+                "fontColor":"#800C0C",
+                "fontSize":19
+            },
+            "properties": {
+                "title": "Display Graph"
+            },
+            "actions":[{
+                       "event": "ATKActionSelect",
+                       "type": "javascript",
+                       "params": {
+                       "webId": "webView1",
+                       "callbackFunction":"displayGraph"
+                       }
+                       }]
+        };
+        
+                    docReady(loadWidgets());
+            </script>
+        
+    </body>
+</html>

@@ -1,0 +1,32 @@
+.sorting {
+	background: none;
+}
+.sorting_asc {
+	background: none;
+}
+.sorting_desc {
+	background: none;
+}
+table.dataTable>thead>th {
+	padding-left: 0px;
+	padding-right:10px;
+	font-weight: bold;
+	border-bottom: solid 0px transparent;
+	cursor: default;
+}
+table.dataTable>thead>th.sorting,  table.dataTable>thead>th.sorting_asc,  table.dataTable>thead>th.sorting_desc {
+	cursor: pointer;
+	cursor: hand;
+}
+table.dataTable tr.odd {
+	background-color: #FFFFFF;
+}
+td {
+	background-color: #FFFFFF;
+}
+table.dataTable tr.even {
+	background-color: #F8F8F8;
+}
+td {
+	background-color: #F8F8F8;
+}

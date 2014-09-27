@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Global Reset */
+/*-----------------------------------*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+body { /* Roboto - Regular */
+	line-height:1;
+	font-family:"Roboto", sans-serif;
+	font-style: normal;
+	font-weight:400;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	text-transform: none;
+	text-decoration: none;	
+	overflow-x:hidden;
+}
+
+* {
+	outline:none !important;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+ul {
+	list-style: none outside;
+}
+ol {
+	list-style: decimal;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:'';
+	content:none;
+}
+img {
+	height: auto !important;
+	max-width: 100% !important;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {
+	vertical-align:middle;
+}
+div {
+	box-sizing: border-box;
+}
+
+/* Global Reset END*/
+/*-----------------------------------*/
+
+/* General */
+/*-----------------------------------*/
+
+::-moz-selection {
+ background: #f1f8f8;
+ color: #000;
+ text-shadow: none
+}
+::selection {
+	background: #f1f8f8;
+	color: #000;
+	text-shadow: none
+}
+.no-border {
+	border:0;
+}
+/*-----------------------------------*/
+/* Floating Classes and Alignment*/
+/*-----------------------------------*/
+
+.pull-left {
+	float:left;
+}
+.pull-right {
+	float:right;
+}
+.align-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+.text-align-left {
+	text-align:left
+}
+.text-align-right {
+	text-align:right
+}
+.text-align-center {
+	text-align:center
+}
+/*-----------------------------------*/
+/* Clear Float*/
+/*-----------------------------------*/
+
+.clearfix {
+ *zoom: 1
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	line-height: 0;
+	content: ""
+}
+.clearfix:after {
+	clear: both
+}
+/*-----------------------------------*/
+/* Visibility Classes*/
+/*-----------------------------------*/
+
+.show {
+	display:block
+}
+.hide {
+	display:none;
+}
+.visible {
+	visibility:visible;
+}
+.hidden {
+	visibility:hidden;
+}
+/*-----------------------------------*/
+
+header,footer
+{
+ background-color:#2D2E33;
+}
+
+.hd-padding{padding:10px 50px; margin-bottom:25px;}
+
+footer
+{bottom:0;width:100%;height:50px; margin-top:25px;position:fixed}
+
+.header-font{font-size:30px; color:#fffeff}
+
+.sub-text{font-size:20px;}
+
+.gray{color:#c0c0c0;}
+
+.white{color:#fffeff}
+
+.min-padding{padding:10px;}
+
+.top-padding{padding-top:10px}
+
+.right-padding{padding-right:50px}
+
+.left-hd-box{display:inline-block;width:40%;border-right:1px solid #ddd;padding:8px}
+
+.right-hd-box{display:inline-block;padding:8px;width:60%;}
+
+.pie-crt{padding:10px; }
+
+.back-btn{width:50px;height:50px;position:fixed;top:18px;right:20px;}
+
+.small-margin{margin: 0 3%;}
+
+@media screen and (max-width: 500px){
+.data-row .first-col{min-width:155px;}
+.hd-padding{padding:10px 20px;}
+.pie-crt{  padding:10px; display:table; margin:0 auto; }
+.pie-crt.tw{ width:auto !important;}
+.pie-crt{ width:400px; height:200px;  padding:10px; display:table; margin:0 auto; }
+} 
+
+@media screen and (max-width: 724px){
+.small-margin{margin: 0 auto}
+}
+
+svg #defs + rect + g > rect{position:absolute; display:none;}
+/*#chart_div {margin-top:170px;}*/
+.pie-crt{ width:400px; height:200px;  padding:10px; display:table; margin:0 auto; }
+.pie-crt.tw{ width:auto !important;}

@@ -1,0 +1,66 @@
+TChryslerHybird
+v7
+r1
+cCheck dependencies
+
+CBuild AST from /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m
+r0
+
+CBuild AST from /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m
+r0
+
+CBuild AST from /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4f76677353b8b941^6c5eb17353b8b941^---0#1#1#--18"Check dependencies36"5D600D06-3972-412B-947B-AFED1A933E37-
+
+CCompileAssetCatalog /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Images.xcassets
+r0
+
+CCompileC DerivedData/ChryslerHybird/Build/Intermediates/ChryslerHybrid.build/Debug-iphonesimulator/ChryslerHybird.build/Objects-normal/i386/CHAppDelegate.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/ChryslerHybird/Build/Intermediates/ChryslerHybrid.build/Debug-iphonesimulator/ChryslerHybird.build/Objects-normal/i386/CHViewController.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/CHViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/ChryslerHybird/Build/Intermediates/ChryslerHybrid.build/Debug-iphonesimulator/ChryslerHybird.build/Objects-normal/i386/main.o /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileStoryboard /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPad.storyboard
+r0
+
+CCompileStoryboard /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/Base.lproj/Main_iPhone.storyboard
+r0
+
+CCopyStringsFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/en.lproj/InfoPlist.strings ChryslerHybird/en.lproj/InfoPlist.strings
+r0
+
+CCpResource ChryslerHybird/icons DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/icons
+r0
+
+CCpResource Config.json DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/Config.json
+r0
+
+CCpResource contentFolder DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/contentFolder
+r0
+
+CGenerateDSYMFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app.dSYM /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/ChryslerHybrid
+r0
+
+CLd /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/ChryslerHybrid normal i386
+r0
+
+CProcessInfoPlistFile /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app/Info.plist /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/ChryslerHybird/ChryslerHybird-Info.plist
+r0
+
+CProcessPCH /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Intermediates/PrecompiledHeaders/ChryslerHybird-Prefix-hhlufwptsqtzhtfantkuwbajdaam/ChryslerHybird-Prefix.pch.pch ChryslerHybird/ChryslerHybird-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Index/PrecompiledHeaders/ChryslerHybird-Prefix-coqixhfhdzynslbssxfeokqnkjgh_ast/ChryslerHybird-Prefix.pch.pch ChryslerHybird/ChryslerHybird-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/shriharsha/Vision/Chrysler_GitHub/Repo_Branch/ChryslerHybird/DerivedData/ChryslerHybird/Build/Products/Debug-iphonesimulator/ChryslerHybrid.app
+r0
+

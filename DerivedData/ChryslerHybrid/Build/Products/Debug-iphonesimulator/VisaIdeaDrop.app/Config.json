@@ -1,0 +1,10 @@
+{
+    "appName":"Chrysler Demo",
+    "contentFolder":"contentFolder/adaptive-development-framework/trunk/v2.0/VISA",
+    "bootstrap":{
+        "useEncryption":true,
+        "encryptedContent":true,
+        "secureDelete":true,
+        "copyContent":true
+    }
+}

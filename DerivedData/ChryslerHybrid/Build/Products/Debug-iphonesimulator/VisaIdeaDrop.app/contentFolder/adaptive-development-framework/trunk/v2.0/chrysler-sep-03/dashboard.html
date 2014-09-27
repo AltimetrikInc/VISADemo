@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Untitled Document</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Stock', 'Avilable'],
+          ['SAP',     11],
+          ['Click',      2],
+          ['Model',  2],
+          ['Click1', 30],
+          ['Click2',    20]
+        ]);
+
+        var options = {
+          title: '',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+    
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["gauge"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Label', 'Value'],
+          ['Quantities', 80],
+
+        ]);
+
+        var options = {
+          width: 270, height: 270,
+          redFrom: 90, redTo: 100,
+          yellowFrom:75, yellowTo: 90,
+          minorTicks: 5
+        };
+
+        var chart = new google.visualization.Gauge(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+
+        setInterval(function() {
+          data.setValue(0, 1, 40 + Math.round(60 * Math.random()));
+          chart.draw(data, options);
+        }, 13000);
+        setInterval(function() {
+          data.setValue(1, 1, 40 + Math.round(60 * Math.random()));
+          chart.draw(data, options);
+        }, 5000);
+        setInterval(function() {
+          data.setValue(2, 1, 60 + Math.round(20 * Math.random()));
+          chart.draw(data, options);
+        }, 26000);
+      }
+    </script>
+  
+  
+</head>
+
+<body>
+<header class="form-inline hd-padding">
+  <div class="form-group right-padding">
+    <h1 class="header-font">Warehouse Stocks of Material</h1>
+    <div class="sub-text top-padding">
+      <lable class="gray"> Plant :</lable>
+      <span class="white">3124 </span> <span class="gray"> Altimetrik Inc </span> </div>
+  </div>
+  <div class="pull-right">
+    <a href="Index.html"><img src="images/back-btn.png" class="back-btn"></a></div>
+  <div class="form-group sub-text navbar-right right-padding">
+    <lable class="gray"> Storage loc. </lable>
+    <span class="white"> N100</span>
+    <div class="white top-padding">SLoc 3124</div>
+  </div>
+</header>
+<div class="row">
+        <div  class="pie-crt tw"> 
+            <div id="chart_div"></div>
+        </div>
+        </div>
+        <div class="row">
+        <div  class="pie-crt">
+        		<div id="piechart_3d" ></div>
+           </div>	
+       </div>
+      </div>
+
+<footer>
+</footer>
+</body>
+</html>

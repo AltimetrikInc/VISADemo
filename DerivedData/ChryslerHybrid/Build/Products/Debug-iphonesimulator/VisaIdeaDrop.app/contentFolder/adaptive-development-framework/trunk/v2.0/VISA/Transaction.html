@@ -1,0 +1,253 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>MerchantPal</title>
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles/Style.css" rel="stylesheet" />
+</head>
+<body class="fixed-header">
+    <div class="container">
+        <div class="row main-header-row fade-in zero">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="col-lg-2 col-md-2 col-xs-2 main-header text-center">
+
+                </div>
+                <div class="col-lg-8 col-md-8 col-xs-8 main-header text-center">
+                    <span class="main-header-text">Transaction</span>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 main-header text-center">
+                    <img src="images/home/logout_icon@2x.png" class="logout-icon" />
+                </div>
+            </nav>
+        </div>
+        <div class="row fade-in zero">
+            <div class="col-lg-12 col-md-12 col-xs-12 sub-header pull-right">
+                <div class="select-style pull-right">
+                    <select>
+                        <option value="-1" selected>Select transaction period</option>
+                        <option value="1">Today</option>
+                        <option value="2">Last Week</option>
+                        <option value="3">Last Month</option>
+                        <option value="4">Last 3 Month</option>
+                        <option value="5">Last 6 Month</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div id="strip1" class="row strip swipe-left">
+            <div class="col-lg-12 col-md-12 col-xs-12 fade-in zero">
+                <div class="strip-row">
+                    <div class="col-lg-3 col-md-3 col-xs-3 strip-1-1 text-center strip-vertical-seperator-rightside">
+                        04<small>Jan</small>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-xs-5 strip-1-2 text-center strip-vertical-seperator-rightside">
+                        Merchant
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 strip-1-3 text-center">
+                        <small>Net Amount</small><br /><small>USD</small>40.33
+                    </div>
+                </div>
+                <div class="strip-horizontal-seperator"></div>
+                <div class="strip-row">
+                    <div class="col-lg-8 col-md-8 col-xs-8 strip-2-1 text-center strip-vertical-seperator-rightside">
+                        <img src="images/transaction/user_icon@2x.png" />  Anderson
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 strip-2-2 text-center">
+                        <img src="images/transaction/pending_small@2x.png" /><br />
+                        <small>Pending</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row strip swipe-right" id="strip1expanded" style="display:none;">
+            <div class="col-lg-12 col-md-12 col-xs-12 fade-in zero">
+                <div class="col-lg-6 col-md-6 col-xs-6 text-center strip-vertical-seperator-rightside-full">
+                    <div class="strip-row-up text-center">
+                        <small>USD</small> 40.33
+                    </div>
+                    <div class="strip-horizontal-seperator"></div>
+                    <div class="strip-row-down text-center">
+                        <img src="images/transaction/completed_small@2x.png" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-vertical-seperator-rightside-full">
+                    <a href="Data.html"><img src="images/transaction/detail_icon@2x.png" class="context-icon" /></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-vertical-seperator-rightside-full">
+                    <img src="images/transaction/capture_icon@2x.png" class="context-icon" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-cell-void">
+                    <img src="images/transaction/void_icon@2x-focus.png" class="context-icon" />
+                </div>
+            </div>
+        </div>
+
+        <div id="strip2" class="row strip swipe-left">
+            <div class="col-lg-12 col-md-12 col-xs-12 fade-in zero">
+                <div class="strip-row">
+                    <div class="col-lg-3 col-md-3 col-xs-3 strip-1-1 text-center strip-vertical-seperator-rightside">
+                        10<small>Jan</small>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-xs-5 strip-1-2 text-center strip-vertical-seperator-rightside">
+                        Merchant
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 strip-1-3 text-center">
+                        <small>Net Amount</small><br /><small>USD</small>54.73
+                    </div>
+                </div>
+                <div class="strip-horizontal-seperator"></div>
+                <div class="strip-row">
+                    <div class="col-lg-8 col-md-8 col-xs-8 strip-2-1 text-center strip-vertical-seperator-rightside">
+                        <img src="images/transaction/user_icon@2x.png" />  Jonathan
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 strip-2-2 text-center">
+                        <img src="images/transaction/pending_small@2x.png" /><br />
+                        <small>Pending</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row strip swipe-right" id="strip2expanded" style="display:none;">
+            <div class="col-lg-12 col-md-12 col-xs-12 fade-in zero">
+                <div class="col-lg-6 col-md-6 col-xs-6 text-center strip-vertical-seperator-rightside-full">
+                    <div class="strip-row-up text-center">
+                        <small>USD</small> 54.73
+                    </div>
+                    <div class="strip-horizontal-seperator"></div>
+                    <div class="strip-row-down text-center">
+                        <img src="images/transaction/completed_small@2x.png" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-vertical-seperator-rightside-full">
+                    <a href="Data.html"><img src="images/transaction/detail_icon@2x.png" class="context-icon" /></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-vertical-seperator-rightside-full">
+                    <img src="images/transaction/capture_icon@2x.png" class="context-icon" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-cell-void">
+                    <img src="images/transaction/void_icon@2x-focus.png" class="context-icon" />
+                </div>
+            </div>
+        </div>
+
+        <div id="strip3" class="row strip swipe-left">
+            <div class="col-lg-12 col-md-12 col-xs-12 fade-in zero">
+                <div class="strip-row">
+                    <div class="col-lg-3 col-md-3 col-xs-3 strip-1-1 text-center strip-vertical-seperator-rightside">
+                        21<small>Jan</small>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-xs-5 strip-1-2 text-center strip-vertical-seperator-rightside">
+                        Merchant
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 strip-1-3 text-center">
+                        <small>Net Amount</small><br /><small>USD</small>77.12
+                    </div>
+                </div>
+                <div class="strip-horizontal-seperator"></div>
+                <div class="strip-row">
+                    <div class="col-lg-8 col-md-8 col-xs-8 strip-2-1 text-center strip-vertical-seperator-rightside">
+                        <img src="images/transaction/user_icon@2x.png" />  Christopher
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4 strip-2-2 text-center">
+                        <img src="images/transaction/pending_small@2x.png" /><br />
+                        <small>Pending</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row strip swipe-right" id="strip3expanded" style="display:none;">
+            <div class="col-lg-12 col-md-12 col-xs-12 fade-in zero">
+                <div class="col-lg-6 col-md-6 col-xs-6 text-center strip-vertical-seperator-rightside-full">
+                    <div class="strip-row-up text-center">
+                        <small>USD</small> 77.12
+                    </div>
+                    <div class="strip-horizontal-seperator"></div>
+                    <div class="strip-row-down text-center">
+                        <img src="images/transaction/completed_small@2x.png" />
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-vertical-seperator-rightside-full">
+                    <a href="Data.html"><img src="images/transaction/detail_icon@2x.png" class="context-icon" /></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-vertical-seperator-rightside-full">
+                    <img src="images/transaction/capture_icon@2x.png" class="context-icon" />
+                </div>
+                <div class="col-lg-2 col-md-2 col-xs-2 text-center strip-cell-void">
+                    <img src="images/transaction/void_icon@2x-focus.png" class="context-icon" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row fade-in zero">
+            <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+                <div class="row bottom-nav-menu">
+                    <div class="col-lg-3 col-md-3 col-xs-3 text-center">
+                        <img src="images/transaction/bot_tab_all_icon@2x.png" class="bottom-nav-menu-icons" /><br />
+                        <span>All</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-3 text-center">
+                        <img src="images/transaction/bot_tab_pymt_from_icon@2x.png" class="bottom-nav-menu-icons" /><br />
+                        <span>Payment From</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-3 text-center">
+                        <img src="images/transaction/bot_tab_pymt_to_icon@2x.png" class="bottom-nav-menu-icons" /><br />
+                        <span>Payment Sent</span>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-xs-3 text-center">
+                        <img src="images/transaction/bot_tab_more_icon@2x.png" class="bottom-nav-menu-icons" /><br />
+                        <span>More</span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+    <script>
+        $(function () {
+
+            $(".swipe-left").dblclick(function () {
+                $(this).hide();
+                $("#" + $(this).attr("id") + "expanded").show();
+            });
+
+            $(".swipe-right").dblclick(function () {
+                $(this).hide();
+                $("#" + $(this).attr("id").substring(0, $(this).attr("id").indexOf("expanded"))).show();
+            });
+
+            //Enable swiping...
+            $(".swipe-left").swipe({
+                //Generic swipe handler for all directions
+                swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+                    if (direction == "left") {
+                        $(this).hide();
+                        $("#" + $(this).attr("id") + "expanded").show();
+                    }
+                },
+                //Default is 75px, set to 0 for demo so any distance triggers swipe
+                threshold: 0
+            });
+            $(".swipe-right").swipe({
+                //Generic swipe handler for all directions
+                swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
+                    if (direction == "right") {
+                        $(this).hide();
+                        $("#" + $(this).attr("id").substring(0, $(this).attr("id").indexOf("expanded"))).show();
+                    }
+                },
+                //Default is 75px, set to 0 for demo so any distance triggers swipe
+                threshold: 0
+            });
+        });
+    </script>
+</body>
+</html>
